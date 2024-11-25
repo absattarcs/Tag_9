@@ -1,0 +1,36 @@
+html{
+    font-size: 02,5%;
+    font-family: sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(80, 67, 49);
+    padding: 1rem 2rem;
+}
+.nav_links ul {
+    display: flex;
+    gap: 0 20px;
+    justify-content: space-between;
+    justify-content: end;
+   
+    list-style: none;
+    color: white;
+    margin-left: 1,5rem;
+    font-size: 1rem;
+}
+.logo {
+    font-size: 1,2rem;
+    font-weight: 100;
+    color: aliceblue;
+}
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
